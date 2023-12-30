@@ -17,11 +17,6 @@ export default {
         'neutral-light-gray': 'hsl(0, 0%, 98%)',
       },
     },
-    screens: {
-      'sm': '375px',
-      'md': '768px',
-      'lg': '1440px',
-    },
   },
   plugins: [],
 }
