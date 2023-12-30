@@ -10,20 +10,24 @@ const Navbar = () => {
   const handleclick = () => setNav(!nav);
 
   return (
-    <div className="flex justify-between p-6">
+    <div className="flex justify-between md:justify-evenly items-center py-8">
       <div className="">
         <img src={Logo} alt="site Logo" />
       </div>
 
       {/* menu */}
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex gap-4">
         <li>Pricing</li>
         <li>Product</li>
         <li>About Us</li>
         <li>Careers</li>
         <li>Community</li>
       </ul>
-
+        <div className="hidden md:flex">
+            <button className="bg-primary-bright-red hover:bg-neutral-pale-red text-white  py-2 px-4 rounded-full">
+                Get started
+            </button>
+        </div>
       {/* Hamburger */}
       <div onClick={handleclick} className="md:hidden z-10">
         {!nav ? (
