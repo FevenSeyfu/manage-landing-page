@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleclick = () => setNav(!nav);
 
   return (
-    <div className="flex justify-between md:justify-evenly items-center py-8">
+    <div className="flex w-full justify-between md:justify-evenly items-center py-8 px-2">
       <div className="">
         <img src={Logo} alt="site Logo" />
       </div>
