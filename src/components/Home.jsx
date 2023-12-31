@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="bg-[url('/src/assets/images/bg-tablet-pattern.svg')] h-full w-full bg-no-repeat mb-24 md:mb-1 lg:bg-auto lg:bg-[right_-12rem_bottom_4rem]  bg-[length:450px_400px] bg-[right_-8rem_bottom_24rem]"
+      className="bg-[url('/src/assets/images/bg-tablet-pattern.svg')] h-full w-full bg-no-repeat mb-18 md:mb-1 lg:bg-auto lg:bg-[right_-12rem_bottom_4rem]  bg-[length:450px_400px] bg-[right_-8rem_bottom_24rem]"
     >
       <Navbar />
       <div className="flex flex-col-reverse justify-center items-center  md:flex-row md:justify-evenly md:px-40 md:py-10">
