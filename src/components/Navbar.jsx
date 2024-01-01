@@ -17,17 +17,17 @@ const Navbar = () => {
 
       {/* menu */}
       <ul className="hidden md:flex gap-4">
-        <li>Pricing</li>
-        <li>Product</li>
-        <li>About Us</li>
-        <li>Careers</li>
-        <li>Community</li>
+        <li className="hover:text-neutral-grayish-blue">Pricing</li>
+        <li className="hover:text-neutral-grayish-blue">Product</li>
+        <li className="hover:text-neutral-grayish-blue">About Us</li>
+        <li className="hover:text-neutral-grayish-blue">Careers</li>
+        <li className="hover:text-neutral-grayish-blue">Community</li>
       </ul>
-        <div className="hidden md:flex">
-            <button className="bg-primary-bright-red  text-white  py-2 px-4 rounded-full hover:opacity-75 shadow-md shadow-primary-bright-red">
-                Get started
-            </button>
-        </div>
+      <div className="hidden md:flex">
+        <button className="bg-primary-bright-red  text-white  py-2 px-4 rounded-full hover:opacity-75 shadow-md shadow-primary-bright-red">
+          Get started
+        </button>
+      </div>
       {/* Hamburger */}
       <div onClick={handleclick} className="md:hidden z-10">
         {!nav ? (
@@ -53,11 +53,11 @@ const Navbar = () => {
         }
       >
         <ul className="absolute w-4/5 h-64 flex flex-col justify-center items-center bg-white rounded-lg gap-4  text-lg font-medium">
-          <li className="hover:text-primary-bright-red">Pricing</li>
-          <li className="hover:text-primary-bright-red">Product</li>
-          <li className="hover:text-primary-bright-red">About Us</li>
-          <li className="hover:text-primary-bright-red">Careers</li>
-          <li className="hover:text-primary-bright-red">Community</li>
+        <li className="hover:text-neutral-grayish-blue">Pricing</li>
+        <li className="hover:text-neutral-grayish-blue">Product</li>
+        <li className="hover:text-neutral-grayish-blue">About Us</li>
+        <li className="hover:text-neutral-grayish-blue">Careers</li>
+        <li className="hover:text-neutral-grayish-blue">Community</li>
         </ul>
       </Modal>
     </div>
