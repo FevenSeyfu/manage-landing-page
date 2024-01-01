@@ -3,7 +3,7 @@ import CarouselSlider from "./CarouselSlider";
 
 const Testimonials = () => {
   return (
-    <div className="w-full h-screen flex flex-col items-center border  text-center gap-4 justify-center">
+    <div className="w-full h-screen flex flex-col items-center text-center gap-4 justify-center">
       <h1 className="text-3xl font-bold md:text-4xl  text-primary-dark-blue md:mb-24">
         What they’ve said
       </h1>
