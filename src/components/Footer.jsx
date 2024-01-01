@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col h-screen w-full">
-      <div className="bg-primary-bright-red text-white flex flex-col items-center justify-center p-12 text-center gap-4 ">
-        <h2 className="text-3xl font-medium tracking-wider">
+    <footer className="flex flex-col h-full w-full">
+      <div className="bg-primary-bright-red text-white flex flex-col items-center justify-center p-12 text-center gap-4 lg:flex-row lg:justify-between">
+        <h2 className="text-3xl font-medium tracking-wider lg:text-4xl lg:w-3/5 lg:pr-32 lg:text-left">
           Simplify how your team works today.
         </h2>
         <button className="bg-neutral-pale-red hover:bg-neutral-pale-red text-primary-bright-red  py-2 px-4 w-32 rounded-full shadow-md shadow-neutral-pale-red font-medium">
