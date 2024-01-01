@@ -19,7 +19,7 @@ const Footer = () => {
             placeholder="Updates in your inbox…"
             className="p-2 rounded-full mr-2 pr-12"
           />
-          <button className="bg-primary-bright-red text-white rounded-full px-6 py-2 hover:opacity-75 hover:shadow-md">
+          <button className="bg-primary-bright-red text-white rounded-full px-6 py-2 hover:opacity-75 hover:shadow-md hover:shadow-neutral-pale-red">
             Go
           </button>
         </div>
@@ -258,7 +258,7 @@ const Footer = () => {
               placeholder="Updates in your inbox…"
               className="p-2 rounded-full mr-2 pr-12"
             />
-            <button className="bg-primary-bright-red hover:opacity-75 hover:shadow-md  text-white rounded-full px-6 py-2">
+            <button className="bg-primary-bright-red hover:opacity-75 hover:shadow-md hover:shadow-neutral-pale-red  text-white rounded-full px-6 py-2">
               Go
             </button>
           </div>
