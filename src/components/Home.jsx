@@ -15,7 +15,7 @@ const Home = () => {
             Manage makes it simple for software teams to plan day-to-day tasks
             while keeping the larger team goals in view.
           </p>
-          <button className="bg-primary-bright-red hover:bg-neutral-pale-red text-white  py-2 px-4 w-32 rounded-full shadow-md shadow-primary-bright-red">
+          <button className="bg-primary-bright-red hover:hover:opacity-75  text-white  py-2 px-4 w-32 rounded-full shadow-md shadow-primary-bright-red">
             Get Started
           </button>
         </div>
