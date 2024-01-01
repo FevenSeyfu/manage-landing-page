@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div className='overflow-scroll'>
+    <div>
       <Home />
       <About />
       <Testimonials />

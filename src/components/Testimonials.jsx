@@ -1,5 +1,5 @@
 import React from "react";
-
+import CarouselSlider from "./CarouselSlider";
 
 const Testimonials = () => {
   return (
@@ -7,7 +7,10 @@ const Testimonials = () => {
       <h1 className="text-3xl font-bold md:text-4xl  text-primary-dark-blue md:mb-24">
         What they’ve said
       </h1>
-      <div className=" hidden md:flex flex-row">
+      <div className="md:hidden">
+        <CarouselSlider />
+      </div>
+      <div className="hidden md:flex flex-row">
         <div className="flex flex-col items-center gap-2 bg-neutral-light-gray rounded-lg mx-4 px-4 pb-4">
           <img
             src="src/assets/images/avatar-anisha.png"
@@ -62,7 +65,6 @@ const Testimonials = () => {
         </div>
       </div>
       <button className="bg-primary-bright-red hover:bg-neutral-pale-red text-white  py-2 px-4 w-32 rounded-full shadow-md shadow-primary-bright-red">
-        {" "}
         Get Started
       </button>
     </div>
