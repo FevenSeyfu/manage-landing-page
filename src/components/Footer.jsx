@@ -11,7 +11,7 @@ const Footer = () => {
           Get Started
         </button>
       </div>
-      <div className="bg-primary-dark-blue text-white flex flex-col gap-8 items-start px-2 py-6 md:hidden">
+      <div className="bg-primary-dark-blue text-white flex flex-col justify-center w-full gap-8 items-center px-2 py-6 md:hidden">
         <div>
           <input
             type="text"
