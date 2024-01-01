@@ -7,10 +7,11 @@ const Footer = () => {
         <h2 className="text-3xl font-medium tracking-wider lg:text-4xl lg:w-3/5 lg:pr-32 lg:text-left">
           Simplify how your team works today.
         </h2>
-        <button className="bg-neutral-pale-red hover:bg-neutral-pale-red text-primary-bright-red  py-2 px-4 w-32 rounded-full shadow-md shadow-neutral-pale-red font-medium">
+        <button className="bg-neutral-pale-red  text-primary-bright-red  py-2 px-4 w-32 rounded-full font-medium shadow-md hover:shadow-neutral-pale-red hover:shadow-md hover:opacity-75">
           Get Started
         </button>
       </div>
+      {/* mobile view */}
       <div className="bg-primary-dark-blue text-white flex flex-col justify-center w-full gap-8 items-center px-2 py-6 md:hidden">
         <div>
           <input
@@ -18,7 +19,7 @@ const Footer = () => {
             placeholder="Updates in your inbox…"
             className="p-2 rounded-full mr-2 pr-12"
           />
-          <button className="bg-primary-bright-red text-white rounded-full px-6 py-2">
+          <button className="bg-primary-bright-red text-white rounded-full px-6 py-2 hover:opacity-75 hover:shadow-md">
             Go
           </button>
         </div>
@@ -125,7 +126,7 @@ const Footer = () => {
           id="copyright"
           className="flex flex-col items-center text-sm text-primary-grayish-blue"
         >
-          <p>Copyright 2020. All Rights Reserved</p>
+          <p>Copyright 2024. All Rights Reserved</p>
           <div class="attribution px-12 text-center">
             Challenge by
             <a
@@ -147,6 +148,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      {/* desktop footer */}
       <div className="hidden bg-primary-dark-blue text-white md:flex flex-row justify-evenly p-12 items-center">
         <div className="flex flex-col items-center gap-12">
           <div id="logo">
@@ -256,7 +258,7 @@ const Footer = () => {
               placeholder="Updates in your inbox…"
               className="p-2 rounded-full mr-2 pr-12"
             />
-            <button className="bg-primary-bright-red text-white rounded-full px-6 py-2">
+            <button className="bg-primary-bright-red hover:opacity-75 hover:shadow-md  text-white rounded-full px-6 py-2">
               Go
             </button>
           </div>
@@ -264,7 +266,7 @@ const Footer = () => {
             id="copyright"
             className="flex flex-col items-center text-sm text-primary-grayish-blue"
           >
-            <p>Copyright 2020. All Rights Reserved</p>
+            <p>Copyright 2024. All Rights Reserved</p>
             <div class="attribution px-12 text-center">
               Challenge by{" "}
               <a

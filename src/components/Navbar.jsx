@@ -24,7 +24,7 @@ const Navbar = () => {
         <li>Community</li>
       </ul>
         <div className="hidden md:flex">
-            <button className="bg-primary-bright-red hover:bg-neutral-pale-red text-white  py-2 px-4 rounded-full">
+            <button className="bg-primary-bright-red  text-white  py-2 px-4 rounded-full hover:opacity-75 shadow-md shadow-primary-bright-red">
                 Get started
             </button>
         </div>

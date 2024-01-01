@@ -64,7 +64,7 @@ const Testimonials = () => {
           </p>
         </div>
       </div>
-      <button className="bg-primary-bright-red hover:bg-neutral-pale-red text-white  py-2 px-4 w-32 rounded-full shadow-md shadow-primary-bright-red">
+      <button className="bg-primary-bright-red hover:opacity-75  text-white  py-2 px-4 w-32 rounded-full shadow-md shadow-primary-bright-red">
         Get Started
       </button>
     </div>
