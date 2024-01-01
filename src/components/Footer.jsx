@@ -1,4 +1,9 @@
 import React from "react";
+import FacebookIcon from "../assets/icons/FacebookIcon";
+import YouTubeIcon from "../assets/icons/YouTubeIcon";
+import TwitterIcon from "../assets/icons/TwitterIcon";
+import PinterestIcon from "../assets/icons/PinterestIcon";
+import InstagramIcon from "../assets/icons/InstagramIcon";
 
 const Footer = () => {
   return (
@@ -70,51 +75,31 @@ const Footer = () => {
           <ul className="flex flex-row items-center gap-8">
             <li>
               <a href="#">
-                <img
-                  src="src/assets/images/icon-facebook.svg"
-                  alt="youtube icon"
-                  className="h-6"
-                />
+                <FacebookIcon />
               </a>
             </li>
             <li>
               {/* youtube */}
               <a href="#">
-                <img
-                  src="src/assets/images/icon-youtube.svg"
-                  alt="social icon"
-                  className="h-6"
-                />
+                <YouTubeIcon />
               </a>
             </li>
             <li>
               {/* twitter */}
               <a href="#">
-                <img
-                  src="src/assets/images/icon-twitter.svg"
-                  alt="social icon"
-                  className="h-6"
-                />
+                <TwitterIcon />
               </a>
             </li>
             <li>
               {/* pinterest */}
               <a href="#">
-                <img
-                  src="src/assets/images/icon-pinterest.svg"
-                  alt="social icon"
-                  className="h-6"
-                />
+                <PinterestIcon />
               </a>
             </li>
             <li>
               {/* instagram */}
               <a href="#">
-                <img
-                  src="src/assets/images/icon-instagram.svg"
-                  alt="social icon"
-                  className="h-6"
-                />
+                <InstagramIcon />
               </a>
             </li>
           </ul>
@@ -158,51 +143,31 @@ const Footer = () => {
             <ul className="flex flex-row items-center gap-2">
               <li>
                 <a href="#">
-                  <img
-                    src="src/assets/images/icon-facebook.svg"
-                    alt="youtube icon"
-                    className="h-6"
-                  />
+                  <FacebookIcon />
                 </a>
               </li>
               <li>
                 {/* youtube */}
                 <a href="#">
-                  <img
-                    src="src/assets/images/icon-youtube.svg"
-                    alt="social icon"
-                    className="h-6"
-                  />
+                  <YouTubeIcon />
                 </a>
               </li>
               <li>
                 {/* twitter */}
                 <a href="#">
-                  <img
-                    src="src/assets/images/icon-twitter.svg"
-                    alt="social icon"
-                    className="h-6"
-                  />
+                  <TwitterIcon />
                 </a>
               </li>
               <li>
                 {/* pinterest */}
                 <a href="#">
-                  <img
-                    src="src/assets/images/icon-pinterest.svg"
-                    alt="social icon"
-                    className="h-6"
-                  />
+                  <PinterestIcon />
                 </a>
               </li>
               <li>
                 {/* instagram */}
                 <a href="#">
-                  <img
-                    src="src/assets/images/icon-instagram.svg"
-                    alt="social icon"
-                    className="h-6"
-                  />
+                  <InstagramIcon />
                 </a>
               </li>
             </ul>
