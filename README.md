@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Manage landing page screenshot](https://github.com/FevenSeyfu/manage-landing-page/manage-landing-page-screenshot.png)
+![Manage landing page screenshot](https://github.com/FevenSeyfu/manage-landing-page/blob/main/manage-landing-page-screenshot.png)
 
 ### Links
 
