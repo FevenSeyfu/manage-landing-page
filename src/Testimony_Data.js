@@ -1,3 +1,4 @@
+import avatarRichard from '../assets/images/avatar-richard.png'
 const slides = [
     {
       id: 0,
@@ -16,7 +17,7 @@ const slides = [
     {
       id: 2,
       user_name: "Richard Watts",
-      profileImg: "../assets/images/avatar-richard.png",
+      profileImg: avatarRichard,
       testimony:
         "“Manage allows us to provide structure and process. It keeps us organized and focused. I can’t stop recommending them to everyone I talk to!”",
     },
