@@ -1,5 +1,9 @@
 import React from "react";
 import CarouselSlider from "./CarouselSlider";
+import avatarAnisha from '../assets/images/avatar-anisha.png'
+import avatarAli from '../assets/images/avatar-ali.png'
+import avatarRichard from '../assets/images/avatar-richard.png'
+import avatarShanai from '../assets/images/avatar-shanai.png'
 
 const Testimonials = () => {
   return (
@@ -13,7 +17,7 @@ const Testimonials = () => {
       <div className="hidden lg:flex flex-row">
         <div className="flex flex-col items-center gap-2 bg-neutral-light-gray rounded-lg mx-4 px-4 pb-4">
           <img
-            src="../assets/images/avatar-anisha.png"
+            src={avatarAnisha}
             alt="profile image"
             className="w-12 h-12 lg:h-24 lg:w-24 relative bottom-6 lg:bottom-12 "
           />
@@ -26,7 +30,7 @@ const Testimonials = () => {
         </div>
         <div className="flex flex-col items-center gap-2 bg-neutral-light-gray rounded-lg mx-4 px-4 pb-4">
           <img
-            src="../assets/images/avatar-ali.png"
+            src={avatarAli}
             alt="profile image"
             className="w-12 h-12 lg:h-24 lg:w-24 relative bottom-6 lg:bottom-12 "
           />
@@ -39,7 +43,7 @@ const Testimonials = () => {
         </div>
         <div className="flex flex-col items-center gap-2 bg-neutral-light-gray rounded-lg mx-4 px-4 pb-4">
           <img
-            src="../assets/images/avatar-richard.png"
+            src={avatarRichard}
             alt="profile image"
             className="w-12 h-12 lg:h-24 lg:w-24 relative bottom-6 lg:bottom-12 "
           />
@@ -52,7 +56,7 @@ const Testimonials = () => {
         </div>
         <div className="flex flex-col items-center gap-2 bg-neutral-light-gray rounded-lg mx-4 px-4 pb-4">
           <img
-            src="../assets/images/avatar-shanai.png"
+            src={avatarShanai}
             alt="profile image"
             className="w-12 h-12 lg:h-24 lg:w-24 relative bottom-6 lg:bottom-12 "
           />
