@@ -13,7 +13,7 @@ const Testimonials = () => {
       <div className="hidden lg:flex flex-row">
         <div className="flex flex-col items-center gap-2 bg-neutral-light-gray rounded-lg mx-4 px-4 pb-4">
           <img
-            src="src/assets/images/avatar-anisha.png"
+            src="../assets/images/avatar-anisha.png"
             alt="profile image"
             className="w-12 h-12 lg:h-24 lg:w-24 relative bottom-6 lg:bottom-12 "
           />
@@ -26,7 +26,7 @@ const Testimonials = () => {
         </div>
         <div className="flex flex-col items-center gap-2 bg-neutral-light-gray rounded-lg mx-4 px-4 pb-4">
           <img
-            src="src/assets/images/avatar-ali.png"
+            src="../assets/images/avatar-ali.png"
             alt="profile image"
             className="w-12 h-12 lg:h-24 lg:w-24 relative bottom-6 lg:bottom-12 "
           />
@@ -39,7 +39,7 @@ const Testimonials = () => {
         </div>
         <div className="flex flex-col items-center gap-2 bg-neutral-light-gray rounded-lg mx-4 px-4 pb-4">
           <img
-            src="src/assets/images/avatar-richard.png"
+            src="../assets/images/avatar-richard.png"
             alt="profile image"
             className="w-12 h-12 lg:h-24 lg:w-24 relative bottom-6 lg:bottom-12 "
           />
@@ -52,7 +52,7 @@ const Testimonials = () => {
         </div>
         <div className="flex flex-col items-center gap-2 bg-neutral-light-gray rounded-lg mx-4 px-4 pb-4">
           <img
-            src="src/assets/images/avatar-shanai.png"
+            src="../assets/images/avatar-shanai.png"
             alt="profile image"
             className="w-12 h-12 lg:h-24 lg:w-24 relative bottom-6 lg:bottom-12 "
           />
