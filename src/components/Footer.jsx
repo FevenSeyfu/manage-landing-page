@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Logo from "../assets/images/logo-white.svg";
 import FacebookIcon from "../assets/icons/FacebookIcon";
 import YouTubeIcon from "../assets/icons/YouTubeIcon";
 import TwitterIcon from "../assets/icons/TwitterIcon";
@@ -137,7 +138,7 @@ const Footer = () => {
           </ul>
         </div>
         <div id="logo">
-          <img src="src/assets/images/logo-white.svg" alt="Logo" />
+          <img src={Logo} alt="Logo" />
         </div>
         <div
           id="copyright"
@@ -169,7 +170,7 @@ const Footer = () => {
       <div className="hidden bg-primary-dark-blue text-white md:flex flex-row justify-evenly p-12 items-center">
         <div className="flex flex-col items-center gap-12">
           <div id="logo">
-            <img src="src/assets/images/logo-white.svg" alt="Logo" />
+            <img src={Logo} alt="Logo" />
           </div>
           <div id="social">
             <ul className="flex flex-row items-center gap-2">
