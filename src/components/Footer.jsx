@@ -1,11 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import FacebookIcon from "../assets/icons/FacebookIcon";
 import YouTubeIcon from "../assets/icons/YouTubeIcon";
 import TwitterIcon from "../assets/icons/TwitterIcon";
 import PinterestIcon from "../assets/icons/PinterestIcon";
 import InstagramIcon from "../assets/icons/InstagramIcon";
 
+import { validateEmail } from "../utils/utils";
+
+const ErrorMessage = () => {
+  return (
+    <p className="text-primary-bright-red text-sm ml-2 my-1">
+      Please insert a valid email
+    </p>
+  );
+};
 const Footer = () => {
+  const [email, setEmail] = useState({
+    value: "",
+    isTouched: false,
+  });
+
+  const getIsEmailValid = () => {
+    return email.value.trim() !== "" && validateEmail(email.value);
+  };
+  const handleSubmit = () => {
+    e.preventDefault();
+    alert("Registered to newsletter");
+    setEmail({ value: "", isTouched: false });
+  };
   return (
     <footer className="flex flex-col h-full w-full">
       <div className="bg-primary-bright-red text-white flex flex-col items-center justify-center p-12 text-center gap-4 lg:flex-row lg:justify-between">
@@ -18,16 +40,26 @@ const Footer = () => {
       </div>
       {/* mobile view */}
       <div className="bg-primary-dark-blue text-white flex flex-col justify-center w-full gap-8 items-center px-2 py-6 md:hidden">
-        <div>
+        <form onSubmit={handleSubmit}>
           <input
             type="text"
+            name="email"
             placeholder="Updates in your inbox…"
-            className="p-2 rounded-full mr-2 pr-12"
+            className="p-2 rounded-full mr-2 pr-12 text-primary-bright-red"
+            value={email.value}
+            onChange={(e) =>
+              setEmail({ value: e.target.value, isTouched: true })
+            }
           />
-          <button className="bg-primary-bright-red text-white rounded-full px-6 py-2 hover:opacity-75 hover:shadow-md hover:shadow-neutral-pale-red">
+          <button
+            className="bg-primary-bright-red text-white rounded-full px-6 py-2 hover:opacity-75 hover:shadow-md hover:shadow-neutral-pale-red"
+            type="submit"
+            disabled={!getIsEmailValid()}
+          >
             Go
           </button>
-        </div>
+          {email.isTouched && !getIsEmailValid() && <ErrorMessage />}
+        </form>
         <div id="site-map">
           <ul className="flex flex-row justify-center gap-16">
             <div>
@@ -217,16 +249,26 @@ const Footer = () => {
           </ul>
         </div>
         <div className="flex flex-col items-center gap-6">
-          <div>
+          <form onSubmit={handleSubmit}>
             <input
               type="text"
+              name="email"
               placeholder="Updates in your inbox…"
-              className="p-2 rounded-full mr-2 pr-12"
+              className="p-2 rounded-full mr-2 pr-8 text-primary-bright-red"
+              value={email.value}
+              onChange={(e) =>
+                setEmail({ value: e.target.value, isTouched: true })
+              }
             />
-            <button className="bg-primary-bright-red hover:opacity-75 hover:shadow-md hover:shadow-neutral-pale-red  text-white rounded-full px-6 py-2">
+            <button
+              className="bg-primary-bright-red hover:opacity-75 hover:shadow-md  text-white rounded-full px-6 py-2 disabled:opacity-4"
+              type="submit"
+              disabled={!getIsEmailValid()}
+            >
               Go
             </button>
-          </div>
+            {email.isTouched && !getIsEmailValid() && <ErrorMessage />}
+          </form>
           <div
             id="copyright"
             className="flex flex-col items-center text-sm text-primary-grayish-blue"
