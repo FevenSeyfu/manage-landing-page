@@ -1,4 +1,4 @@
-import avatarRichard from '../assets/images/avatar-richard.png'
+import avatarRichard from './assets/images/avatar-richard.png'
 const slides = [
     {
       id: 0,
