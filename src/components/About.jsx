@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="w-full flex flex-col h-full mb-24  text-center  gap-4 lg:flex-row lg:h-full lg:px-40 lg:text-left">
       <div className="gap-3 flex flex-col px-6 mb-4">
-        <h1 className="text-3xl font-bold lg:text-4xl">
+        <h1 className=" text-primary-dark-blue text-3xl font-bold lg:text-4xl">
           What’s different about Manage?
         </h1>
         <p className="text-neutral-grayish-blue lg:w-4/5">
