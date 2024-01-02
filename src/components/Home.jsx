@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import BgImage from "/src/assets/images/bg-tablet-pattern.svg";
+import IntroIllustration from '../assets/images/illustration-intro.svg'
 const Home = () => {
   return (
     <div
@@ -20,7 +21,7 @@ const Home = () => {
           </button>
         </div>
         <div>
-          <img src="/src/assets/images/illustration-intro.svg" alt="Illustraion image" className="lg:ml-12" />
+          <img src={IntroIllustration} alt="Illustraion image" className="lg:ml-12" />
         </div>
       </div>
     </div>
